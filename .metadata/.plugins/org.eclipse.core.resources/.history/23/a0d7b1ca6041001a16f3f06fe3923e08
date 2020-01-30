@@ -1,0 +1,22 @@
+package test;
+
+import java.util.Scanner;
+
+public class Happy {
+	public static void main(String[] args) {
+		Scanner s =new Scanner(System.in);
+		System.out.println("Enter the student marks");
+		
+		int m1 = s.nextInt();
+		    System.out.println(m1);
+		int m2 = s.nextInt();
+		      System.out.println(m2);
+		int m3 = s.nextInt();
+		         System.out.println(m3);
+		//int a = s.nextInt();
+	//	System.out.println("Total is "+a);
+		
+		
+	}
+
+}
