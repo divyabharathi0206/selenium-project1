@@ -11,11 +11,8 @@ public class DragAndDrop {
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Divi keerthi\\Desktop\\test\\lib\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.facebook.com/");
-	WebElement src = driver.findElement(By.id("email"));
-	src.sendKeys("dora");
 	WebElement desc = driver.findElement(By.id("pass"));
 	Actions a=new Actions(driver);
-    a.dragAndDrop(src, desc).perform();
-    
+  
 }
 }
